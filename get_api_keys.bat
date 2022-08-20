@@ -1,5 +1,5 @@
-@ECHO OFF
-SET PYTHONPATH=PYTHON_PATH\python.exe
-SET PARSING=PROJECT_PATH\get_api_keys.py
-"%PYTHONPATH%" "%PARSING%"
+(
+venv\Scripts\activate
+python get_api_keys.py
 pause
+)
